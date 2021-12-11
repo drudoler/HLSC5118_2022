@@ -1,0 +1,28 @@
+---
+title: "Week 4 Exercises"
+output: html_notebook
+---
+1. Let $X$ be a normal random variable with $\mu = 5$ and $\sigma = 10$. Find $P(X>10)$ and $P(-20 < X < 15)$
+
+2. Suppose the mean height of students is 160 cm, with a variance of 29 cm$^2$. What is the probability of randomly selecting a student having a height of less than 155 cm? 
+
+3. Suppose a rare disease affects 1 in 1,000 (P = 0.001) people. Assuming that members of the population are affected independently (i.e., the disease is non transmissible), find the probability of $k$ cases in a popilation of 100,000 for $k = 0$, $k = 1$, and $k = 2$. If you want, you can just write the equation, or you can calculate the result using your preferred statistical software. 
+
+4. What is the relationship between *any* normal distribution and the standard normal distribution? 
+
+5. Skim the provided article by Kurdyak et al. (2015). What is the approximate probability that a person identified as having a diagnosis of chronic psychotic disorder actually has a diagnosis? 
+
+6. Discuss a technique to recruit a representivative sample to address the following: 
+
+(a) Is Reactine an effective allergy medication? 
+(b) Do protein bars aid post work-out recovery? (c) How many people are in Canada? 
+(d) What proportion of the population enjoys statistics? 
+
+# Computer Exercises 
+1. Imagine a cup containing two similar coins is shaken, then turned upside down on a table. What is the probability that both coins are heads? How did you determine this? 
+
+2. In your preferred statistics software, simulate the experiment in the above problem 10,000 times and report the probability that both coins are heads. Does this match your answer in 1.?
+
+3. Randomly draw 10, 100, 1,000, and 10,000 observations from a standard normal distribution. Take the mean of each draw and compare them to the population mean. What does this result tell you? 
+
+4. Graph the distribution of each of the results in 3. What does this result tell you? 

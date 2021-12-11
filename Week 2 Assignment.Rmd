@@ -1,0 +1,11 @@
+---
+title: "Week 2 Assignment"
+output: html_notebook
+---
+1. Discuss in what context you might use univariate and bivariate analyses. What types of research questions do these statistics help you answer? What types of questions do they not help you answer?
+
+2. Discuss the biggest fear you have about your own data (e.g., potential sources of bias, missing data, sample size, etc.)? What might you do to address these issues?
+
+3. Produce a table that provides a description of the key variables in your study (e.g., outcome, exposure, covariates). Also indicate each variable's data source, whether the variable is derived (i.e., generated from the existing data), and how the variable is/will be coded.
+
+4. Create a dummy (column and row titles only) Table 1 of your analysis. Table 1 should list all variables in the rows and all stratifications in the columns. Statistics can be indicated in either the row or column headers. The best way to think about structuring your tables is to look at examples from your target journal. If you don't have a target journal, pick one that you like and use that to guide you (*BMJ*, *JAMA* or *The Lancet* are good choices for a medical journal if you are stumped). Here is another [resource](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6773463/pdf/nihms-1535136.pdf)) that may be useful.

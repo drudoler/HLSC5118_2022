@@ -1,0 +1,60 @@
+---
+title: "Week 7 Exercises"
+output: html_notebook
+---
+
+Among a simple random sample of 331 American adults who do not have a four-year college degree and are not currently enrolled in school, 48% said they decided not to go to college because they could not afford school.
+
+1.  A newspaper article states that only a minority of the Americans who decide not to go to college do so because they cannot afford it and uses the point estimate from this survey as evidence. *Conduct a hypothesis test to determine if these data provide strong evidence supporting this statement at* $\alpha = 0.05$.
+
+2.  Would you expect a confidence internal for the proportion of American adults who decide not to go to college because they cannot afford it to include 0.5? Explain
+
+3.  Calculate a 90% confidence interval for the proportion of Americans who decide to not go to college because they cannot afford it, and interpret the interval in context.
+
+4.  Suppose we wanted the margin of error for the 90% confidence level to be about 1.5%. How large of a survey would you recommend?
+
+According to a report on sleep deprivation by the Centers for Disease Control and Prevention, the proportion of California residents who reported insufficient rest or sleep during each of the preceding 30 days is 8.0%, while this proportion is 8.8% for Oregon residents. These data are based on simple random samples of 11,545 California and 4,691 Oregon residents.
+
+1.  Calculate a 95% confidence interval for the difference between the proportions of Californians and Oregonians who are sleep deprived and interpret it in context of the data.
+
+2.  Conduct a hypothesis test to determine if these data provide strong evidence the rate of sleep deprivation is different for the two states.
+
+3.  It is possible the conclusion of the test in b) is incorrect. If this is the case, what type of error was made?
+
+Advanced melanoma is an aggressive form of skin cancer that until recently was almost uniformly fatal. In rare instances, a patient's melanoma stopped progressing or disappeared altogether when the patient's immune system successfully mounted a response to the cancer. Those observations led to research into therapies that might trigger an immune response. A 2013 report in the New England Journal of Medicine by Wolchok, et al. reported the results of a study in which patients were treated concurrently with two new therapies, nivolumab and ipilimumab. Of 52 patients, 21 experienced an immune response.
+
+1.  What is the estimate of the population probability of an immune response after concurrent treatment with nivolumab and ipilimumab, $\hat{p}$?
+
+2.  Evaluate whether the assumptions for using the normal approximation are met.
+
+3.  Calculate an approximate 95% confidence interval for p and interpret the interval in context of the data.
+
+4.  Confirm the answer to part c) using the appropriate test in your statistical software of choice.
+
+5.  In resource-limited settings, single-dose nevirapine (NVP) is given to an HIV-positive woman during birth to prevent mother-to-child transmission of the virus. Exposure of the infant to NVP may foster the growth of more virulent strains of the virus in the child.If a child is HIV-positive, should they be treated with NVP or a more expensive drug, lopinavir (LPV)? In this setting, success means preventing a growth of the virus in the child (i.e., preventing virologic failure). The following table contains data from a 2012 study conducted in six African countries and India!.
+
++--------------------+---------------+---------------+---------------+
+|                    | NVP           | LPV           | Total         |
++====================+===============+===============+===============+
+| Virologic Failure  | 60            | 27            | 87            |
++--------------------+---------------+---------------+---------------+
+| Stable Disease     | 87            | 113           | 200           |
++--------------------+---------------+---------------+---------------+
+| Total              | 147           | 140           | 287           |
++--------------------+---------------+---------------+---------------+
+
+1.  State the null and alternative hypotheses.
+
+2.  Calculate the expected cell counts
+
+3.  Check the assumptions for using $\chi^2$ test statistic.
+
+4.  Calculate the $\chi^2$ test statistic.
+
+5.  Calculate the p-value for the test statistic. The p-value represents the probability of observing a result as or more extreme than the sample data.
+
+6.  Confirm the results from parts 3) and 4) using your statistics software of choice. *Note that the value of the test statistic may be different than your manual calculation if the software is using a continuity correction that makes the normal distribution more closely approximate the binomial distribution*.
+
+7.  Summarize the conclusions of your results. Be sure to include which drug is recommended for treatment.
+
+8.  Repeat the analysis using inference for the difference of two proportions and confirm that the results are the same.

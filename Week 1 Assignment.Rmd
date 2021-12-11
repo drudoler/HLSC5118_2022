@@ -1,0 +1,18 @@
+---
+title: "Week 1 Assignment"
+output: html_notebook
+---
+
+1. Describe the research question for your thesis topic, and describe the study design you will use to answer your research question. Are you testing a hypothesis? If so, provide a statement of your hypothesis. If you can, think about some potential sources of bias you might be concerned about.
+
+2. Think of the data you will be using in your thesis work (or for your final report in this course). What data structure will it have (cross-sectional, time series, longitudinal)? What will be your outcome variable (if applicable)? What will be your main exposure variable(s)? What type of variables are your outcome and exposure? 
+
+  - If you can, get started on describing your dataset. Here is a guide for what should be included in the description: 
+  
+    - The name the dataset (if applicable).
+    - The source(s) of the data (e.g., laboratory, survey, administrative)
+    - The type of data (primary, secondary or both)
+    - The structure of the data
+    - The time period it covers
+    - The unit of analysis and population of interest.
+    - The number of observations (unique observations for panel data)

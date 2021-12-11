@@ -1,0 +1,30 @@
+---
+title: "Week 2 Exercises"
+output: html_notebook
+---
+
+## Calculate by hand
+
+1.  Calculate the mean and variance for the following blood pressure measurements (mm Hg): $121, 110, 114, 100, 161, 130, 130$
+
+2.  We haven't yet discussed the difference between sample and population data (more details coming in subsequent weeks), but now is a good time to start thinking about this distinction. The exercise is provided to illustrate the difference between sampling, sample statistics and population parameters. In a table, list all possible samples of size $n = 3$, as well as the sample mean, variance and range for the following population values of a variable $X = \{2,4,6,10,18\}$ . Compare these values to the population mean, variance, and range. What does this result tell you about sample statistics?
+
+3. Calculate the population covariance for the variables $X = \{3,4,6,7,4\}$ and $Y=\{1,4,6,8,5\}$. Interpret the covariance statistic.
+
+## Computer exercises 
+
+1. Import cps4.csv
+
+2. Calculate the mean, median, interquartile range, minimum, and maximum values of `wage`. Based on these statistics, is the distribution of `wage` skewed? If so, in which direction?
+
+3. Plot a histogram of `wage` to confirm your answer in 2. 
+
+4. Generate a dummy variable that is equal to one for married people with children, and zero otherwise. 
+
+5. Compare wages of unmarried people with kids to the rest of the sample. Then, compare unmarried people with kids to married people with kids. What do you find?
+
+6. What is the value of `wage` at the 99th percentile? 
+
+7. Within the sample, what proportion of the wages are earned by the top 1%? 
+
+8. Use bivariate statistics to characterize the relationship between wages and years of education. Interpret the statistic(s).

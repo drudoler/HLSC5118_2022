@@ -1,0 +1,16 @@
+---
+title: "Week 3 Assignment"
+output: html_notebook
+---
+
+1. Explore the variation in your outcome variable. Discuss.
+
+2. Is your data skewed? What will be the impact of this on your analysis?
+
+3. Does your data contain any outliers? If yes, will they be influential on your study results? If so, what do you intend to do with them?
+
+4. Does your data contain any missing values on key variables? If so, what proportion of your data has incomplete cases (observations with missing values on any key variables)? If you have incomplete cases, compare observed characteristics for incomplete and complete cases. Do you have reason to believe the missingness is random?
+
+5. Using summary statistics and visualizations, explore variation and covariation in your key variables. 
+
+> Feel free to "colour outside the lines here" and find interesting features of your data. If the steps I've highlighted above are not helpful for you, feel free to do something different.

@@ -1,0 +1,62 @@
+---
+title: "Week 1 Assignment"
+output: html_notebook
+---
+
+1.  Based on exercise **1.42 from OpenIntro Statistics:** In a study of three nationally representative large-scale data sets from Ireland, the United States, and the United Kingdom (n = 17,247), teenagers between the ages of 12 to 15 were asked to keep a diary of their screen time and answer questions about how they felt or acted. The answers to these questions were then used to compute a psychological well-being score. Additional data were collected and included in the analysis, such as each child's sex and age, and on the mother's education, ethnicity, psychological distress, and employment. The study concluded that there is little clear-cut evidence that screen time decreases adolescent well-being.
+
+    -   What type of study is this?
+
+    -   Identify the explanatory variable(s)
+
+    -   Identify the response variable
+
+    -   Identify observed and unobserved confounders
+
+    -   Draw a causal diagram indicating the direction of the causal relationships between these variables.
+
+2.  Exercise **1.10 from OpenIntro Statistics:** A survey was conducted to study the smoking habits of UK residents. On page 20 of the text, is a data matrix displaying a portion of the data collected in this survey. Note that "£" stands for British Pounds Sterling, "cig" stands for cigarettes, and "N/A" refers to a missing component of the data.
+
+    -   Comment on whether the results of the study can be generalized to the population, and why.
+
+    -   Comment on whether the results of the study can be used to establish causal relationships.
+
+    -   What does each row of the data table (matrix) represent?
+
+    -   How many participants were included in the survey?
+
+    -   Indicate whether each variable in the study is numerical or categorical. If numerical, identify as continuous or discrete. If categorical, indicate if the variable is ordinal.
+
+## Get up and running with your statistical software of choice. My recommendation is that you use R. R will be used in all of the examples and lectures in this course. If you intend on using R, you can get set up by reading Chapter 1 of [R for Data Science](https://r4ds.had.co.nz/introduction.html)
+
+-   Implement the following in RStudio:
+
+-   Install the "tidyverse" package in R. This is a group of packages that you will use often (e.g., dplyr, ggplot). Before you can use a package you must install it using the following command (in this example the package is called *tidyverse*): `install.packages("tidyverse")`. Note that you need only install a package once. However, before it can be used, you must load the package by typing `library(tidyverse)`.
+
+-   Load the tidyverse suite of packages and then load the help document for the `ggplot2` package. This can be done by typing a `?` before the name of the package or function in the Console.
+
+-   Create an object that contains the following characters: "Don't panic". Print out that object.
+
+You can test code in the Console. Once it works, you should transfer it to a script file so that you can save it for later. My recommendation is that you make use of a R Markdown files for your activities and assignments. This format allows you to embed text, code and results into the same document. A cheat sheet for using R Markdown (as well as a number of other commands and features of R and RStudio) can be found [here](https://rstudio.com/resources/cheatsheets/).
+
+## Computer Exercises
+
+1.  Import the dataset cps4.csv
+
+2.  What is the structure of the data (i.e., cross-sectional, time-series or panel?) How did you determine this?
+
+3.  Count the number of observations in the dataset
+
+4.  Count the number of variables
+
+5.  What type of *variable* is "married"?
+
+> note that a distinction is being made between a *variable* and an *object*.
+
+6.  What type of *variable* is "nkids"?
+
+7.  Use the `typeof()` function to determine what type of *objects* "wage" and "educ" are. If you are using a different software package you can skip this problem.
+
+8.  Using this data, determine an outcome and explanatory variable (using a causal diagram). Graph the relationship between these variables.
+
+> The built-in function In R to generate a scatter plot is `plot()`. The built-in function to generate a box plot is `boxplot()`. The built-in function to generate a bar graph is `barplot()`. These should be all you need to complete the problem above. We will be using the package called [ggplot2](https://ggplot2.tidyverse.org/) for most visualizations (if you are using R) in this course, but these built-in functions will do in a pinch.

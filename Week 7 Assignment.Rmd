@@ -1,0 +1,6 @@
+---
+title: "Week 7 Assignment"
+output: html_notebook
+---
+
+If you are testing a hypothesis, calculate the sample size requirements for your final project. If you are not, pick any quantitative study that uses hypothesis tests and determine if it is sufficiently powered. 
